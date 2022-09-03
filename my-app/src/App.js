@@ -10,16 +10,17 @@ function App() {
         <img src={logo} className="App-logo" alt="logo" />
         <Counter />
         <p>
-          Edit <code>src/App.js</code> and save to reload.
         </p>
         <span>
-          <span>Learn </span>
+          <span>Learn</span>
+          <span>More</span>
           <a
-            className="App-link"
+          className="App-link"
             href="https://reactjs.org/"
             target="_blank"
             rel="noopener noreferrer"
           >
+          
             React
           </a>
           <span>, </span>
@@ -29,6 +30,7 @@ function App() {
             target="_blank"
             rel="noopener noreferrer"
           >
+             
             Redux
           </a>
           <span>, </span>
@@ -37,6 +39,7 @@ function App() {
             href="https://redux-toolkit.js.org/"
             target="_blank"
             rel="noopener noreferrer"
+            
           >
             Redux Toolkit
           </a>
@@ -46,8 +49,9 @@ function App() {
             href="https://react-redux.js.org/"
             target="_blank"
             rel="noopener noreferrer"
-          >
+                    >
             React Redux
+             
           </a>
         </span>
       </header>
